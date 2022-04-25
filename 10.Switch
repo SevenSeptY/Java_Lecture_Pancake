@@ -7,7 +7,8 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the day of today ");
 		int day = input.nextInt();
-		//Switch must includs int/char/short/byte
+		//Switch must includs int/char/short/byte 
+		//Every case must includs break, or it will continue running
 		switch(day) {
 		case 1:
 			System.out.println("Monday");
