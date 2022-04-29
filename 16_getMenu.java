@@ -29,4 +29,31 @@ public class Main {
 
 }
 
+//------------------------------------------------------------------
+package Java_Felix;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("please input start line");
+        int num = input.nextInt();
+        
+        printStar(num);
+    }
+
+    public static void printStar(int line){ //line = num; you can use long as well as long > int; but you can not use byte, byte< int) 
+
+        for (int i = 1; i<= line; i++){
+
+            for (int j = 1; j<= i; j++){
+                System.out.print("*");
+            }
+            System.out.println("*");
+        }
+    }
+}
+
+
+//------------------------------------------------------------------------
 
