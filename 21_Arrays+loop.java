@@ -56,7 +56,7 @@ public class Main{
        int len = cs.length; //How many rows
 
        for (int i = 1; i <=len; i ++){
-
+            //1st row 6 space, 2nd row has 5 space .....
            for (int j=i; j<len; j++){
                System.out.print(" ");
            }
