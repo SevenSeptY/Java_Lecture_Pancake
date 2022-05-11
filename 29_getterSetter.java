@@ -3,6 +3,7 @@ import java.util.Scanner;
 import java.util.Random;//Generate a fake random number
 /*
  using private for access permission
+ We can declare the setter method using the set keyword with one parameter and without return type.
 */
 
 public class Main{
